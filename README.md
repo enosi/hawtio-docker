@@ -1,5 +1,7 @@
 # [hawtio](https://hawt.io/) for [docker](https://docker.com/)
 
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/enosi/hawtio-docker.svg)](https://cloud.docker.com/u/enosi/repository/docker/enosi/hawtio-docker)
+
 We struggled to find an easy [docker](https://docker.com/) container for
 [hawtio](https://hawt.io/) so we built this one.
 
@@ -32,3 +34,7 @@ docker run --rm -p 8081:8080 enosi/hawtio-docker:latest
 Then you will be able to head along to:
 
 > [lvh.me:8081/hawtio](http://lvh.me:8081/hawtio/)
+
+## License
+
+[MIT License](./LICENSE)
